@@ -1,0 +1,8 @@
+.app-header {
+  display: flex;
+  justify-content: center;
+}
+.logo-wrapper {
+  margin-top: 45px;
+  margin-bottom: 58px;
+}

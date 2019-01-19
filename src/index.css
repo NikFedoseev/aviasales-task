@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('/fonts/Roboto-Regular.ttf') format('ttf');
+}
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.root {
+  background-color: #F2F7FA;
+  width: 100%;
+  font-family: 'Roboto';
+  min-height: 100%;
+}

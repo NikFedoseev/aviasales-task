@@ -1,0 +1,11 @@
+.app-content {
+  max-width: 566px;
+  margin-left: 19px;
+}
+
+/*Адаптив*/
+@media (max-width: 480px) {
+  .app-content {
+    margin: 19px;
+  }
+}

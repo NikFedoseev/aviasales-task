@@ -1,0 +1,79 @@
+.checkbox-list-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px;
+}
+
+.checkbox-list-item:hover {
+  background-color: #f1fcff;
+}
+
+.checkbox-list-item:hover .checkbox-item-uncheck-other {
+  display: block;
+}
+
+
+.checkbox-list-label {
+  position: relative;
+  padding-left: 29px;
+  font-size: 13px;
+  line-height: 35px;
+}
+
+.checkbox-field {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkbox-face {
+  position: absolute;
+  top: 7px;
+  left: 0;
+  width: 19px;
+  height: 19px;
+  border-radius: 3px;
+  border: 1px solid #d2d5d6;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.checkbox-face__checked {
+  border: 1px solid #3e9ce8;
+  background-color: #f2fcff;
+}
+
+.checkbox-face::after {
+  content: '';
+  display: none;
+  position: absolute;
+}
+
+.checkbox-face__checked::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 19px;
+  height: 19px;
+  background: url('../../../images/checkbox.png');
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+
+.checkbox-item-only {
+  line-height: 35px;
+}
+.checkbox-item-uncheck-other {
+  line-height: 35px;
+  font-size: 13px;
+  display: none;
+  cursor: pointer;
+}
+/*Адаптив*/
+@media(max-width: 480px) {
+  .checkbox-item-uncheck-other{
+    display: block;
+  }
+}

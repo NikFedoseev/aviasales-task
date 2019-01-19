@@ -1,0 +1,28 @@
+.app-filter {
+  width: 232px;
+  height: fit-content;
+  box-shadow: 0 1px 4px rgba(91, 137, 164, 0.25);
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+.filter-item {
+  box-sizing: border-box;
+  padding: 15px 0;
+}
+
+.filter-title {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0.5px;
+  padding: 0 15px 15px;
+}
+
+/*Адаптив*/
+@media (max-width: 480px) {
+  .app-filter {
+    width: 300px;
+  }
+}
+

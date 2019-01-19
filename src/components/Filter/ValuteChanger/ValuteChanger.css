@@ -1,0 +1,39 @@
+.valute-changer-button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.valute-changer-button {
+  width: 68px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border: 1px solid #d2d5d6;
+  background-color: #ffffff;
+  color: #2196f3;
+  cursor: pointer;
+}
+
+.valute-changer-button__rub { 
+  border-radius: 5px 0 0 5px;
+}
+
+.valute-changer-button__usd {
+  
+}
+
+.valute-changer-button__eur {
+  border-radius: 5px 0 0 5px;
+  border-radius: 0 5px 5px 0;
+}
+
+.valute-changer-button__active {
+  background-color: #2196f3;
+  border: 1px solid #2196f3;
+  color: #ffffff;
+}
+
+.valute-changer-button__inactive:hover {
+  border: 1px solid #64b5f5;
+  background-color: #f2fcff;
+}
