@@ -8,4 +8,4 @@ app.get('/', function(req, res) {
   res.sendFile(path.resolve(__dirname, '../dist', 'index.html'));
 });
 
-app.listen(5000);
+app.listen(80, '0.0.0.0');
